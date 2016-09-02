@@ -66,3 +66,5 @@ div#divide{
       height:200px;
       float:right;
 }
+
+.centro{text-align: center; color: dimgray; position: relative; top -500px;}
