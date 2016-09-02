@@ -1,0 +1,54 @@
+div{
+      border-color:blue;
+      border-style:solid;
+      border-width:1px;
+      text-align:justify;
+      margin-top:10px;
+      text-justify:inter-word;
+}
+
+div#lateral{ 
+      border-color:pink;
+      border-style: solid;
+      border-width: 2px;
+      height:200px;
+      margin-top:10px;
+      float:left;
+      max-width: 100px;
+      text-align:justify;
+      
+      background:url(bm.jpg);
+      background-size:100% 100%;
+}
+
+a{
+      text-decoration:none;
+}
+
+div#dfoot{
+      border-color:blue;
+      border-style: solid;
+      border-width: 3px;
+      height:200px;
+      margin-top:10px;
+      float:right;
+      width: 300px;
+}
+
+div#interes{
+      display: block;
+      border-color:blue;
+      border-style: solid;
+      border-width: 3px;
+      margin-top:10px;
+      margin-left:10px;
+      width:66%;
+      height:200px;
+}
+
+body{
+      margin-top:20px;
+      margin-bottom:20px;
+      margin-right:20px;
+      margin-left:20px;
+}

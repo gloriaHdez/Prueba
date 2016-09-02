@@ -1,0 +1,33 @@
+body {
+      background-image:url('lila.jpg');    /*Fondo de color para la pagina*/
+}
+div#lateral{ 
+      border-color:black;
+      border-style: solid;
+      border-width: 2px;
+      height:200px;
+     /* position:static;     /*Se encontrara en el lugar por default*/
+      /*position:relative;*/
+      float:left;
+      /*bottom:100px;   /*Empieza desde el punto maximo de abajo hacia arriba*/
+      /*
+      left:200px;
+      position:fixed;
+      top:100px;*/
+      with: 300px;
+}
+
+.imag {
+      float:right;
+}
+
+.imagenes{
+      float:left;
+}
+div{
+      border-color:blue;
+      border-style:solid;
+      border-width:1px;
+      text-align:justify;
+      text-justify:inter-word;
+}

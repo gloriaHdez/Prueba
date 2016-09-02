@@ -1,0 +1,66 @@
+nav {
+   border:2px dotted green;
+   margin:10px;
+}
+
+div {
+   border:2px solid purple;
+   margin:10px;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,li {
+      border:2px dotted LightCoral ;
+      margin:10px;
+}
+
+ul{          /*Primero se debe ponr el estilo general*/
+      /*list-style-image: url('color.jpg');*/
+      padding-left:0;
+      list-style-type: none;
+      list-style-position: outside;  
+      text-align:center;
+}
+ul ul{           /*Estilo en cascada, vamos a modificar el segundo ul*/
+      list-style-type: none;
+      list-style-image:none;
+      /*list-style:circle url('fondo.jpg');*/
+}
+
+ul li {
+      /*padding-left: 20px;*/
+      display: inline-block;        /*Formato en horizontal, se muestra de forma horizontal*/
+      text-align:center;
+      width:150px;      
+}
+
+ul ul li:hover {
+   background-color: YellowGreen ;
+}
+
+li:hover {
+   background-color: IndianRed;
+}
+
+#menubuscadores {
+   display: none;
+}
+
+ul.vertical {
+   display:list-item;     
+   text-align:center;
+   width:200px;
+   margin-left: -2px;
+}
+
+div#divide{
+      border-width: 3px;
+      margin-top:10px;
+      margin-left:10px;
+      width:15%;
+      height:200px;
+      float:right;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='es-mx'>
+<head>
+<meta charset='utf-8'/>
+<title> Navegación con listas modificado</title>
+<link rel="stylesheet" href="hoja4.css"/>  <!--Llamado a una hoja de estilo externa-->
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<nav>
+<ul>
+    <li><a href="basic.html">Página Basica</a></li>
+    <li><a href="dia2.html">Página del día 2</li>
+    <li><a href="dia3.html">Página del día 3</li>
+    <li id="mouse"><a href="mpagina.html">Mi página</li>
+    <li ><a id="buscadores">BUSCADORES!</a></li>
+    <ul id="menubuscadores">
+        <li><a href="http://google.com">GOOGLE!</a></li>
+        <li><a href="http://yahoo.com">YAHOO!</a></li>
+        <li><a href="http://facebook.com">FACEBOOK!</a></li>
+    </ul>
+</ul> 
+</nav>
+
+<div id="nav"> </div>
+
+<ul class="vertical">
+    <li><a href="basic.html">Página Basica</a></li>
+    <li><a href="dia2.html">Página del día 2</li>
+    <li><a href="dia3.html">Página del día 3</li>
+    <li><a href="mpagina.html">Mi página</li>
+    <li ><a id="busca">BUSCADORES!</a></li>
+    <ul id="menubusca" class="vertical">
+        <li><a href="http://google.com">GOOGLE!</a></li>
+        <li><a href="http://yahoo.com">YAHOO!</a></li>
+        <li><a href="http://facebook.com">FACEBOOK!</a></li>
+    </ul>
+</ul> 
+
+
+<div id="divide" >
+<img src="rosa.jpg" alt="rose"/>
+</div>
+
+<!-- fadeToggle(desvanecimiento (aparecer/desaparece)) 
+corresponde cuando hacemos clic en buscadores-->
+<script type="text/javascript">
+  $("#buscadores").click(function () {  
+    $("#menubuscadores").fadeToggle();   
+  })
+</script>
+
+<script type="text/javascript">
+  $("#busca").click(function () {  
+    $("#menubusca").fadeToggle();   
+  })
+</script>
+<!--MENSAJE CUANDO QUITAS EL MOUSE DEL MENSAJE--
+<script type="text/javascript">
+$(document).ready(function(){
+  $("#mouse").mouseleave(function(){
+    alert("Registrate ahora! Tenemos muchas ofertas para ti !");
+  });
+});
+</script>
+-->
+
+</body>
+</html>
